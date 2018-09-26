@@ -13,7 +13,7 @@ function kindling_image_forwarding_enabled()
 {
     return (bool) apply_filters(
         'kindling_image_forwarding_enabled',
-        config('kindling.image-forwarding.enabled')
+        config('kindling-image-forwarding.enabled')
     );
 }
 
@@ -40,7 +40,7 @@ function kindling_image_forwarding_replace_forward_uri($uri)
         home_url(),
         apply_filters(
             'kindling_image_forwarding_get_forward_url',
-            config('kindling.image-forwarding.url') ? config('kindling.image-forwarding.url') : home_url()
+            config('kindling-image-forwarding.url') ? config('kindling-image-forwarding.url') : home_url()
         ),
         $uri
     );
