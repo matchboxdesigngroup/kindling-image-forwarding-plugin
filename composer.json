@@ -1,21 +1,21 @@
 {
-    "name": "kindling/image-forwarding",
-    "version": "1.1.0",
-    "description": "Kindling Image Forwarding",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Dan Holloran",
-            "email": "dtholloran@gmail.com"
-        }
-    ],
-    "require": {},
-    "repositories": {},
-    "autoload": {
-        "files": [
-            "helpers.php",
-            "filters.php"
-        ]
+  "name": "kindling/image-forwarding",
+  "version": "1.1.1",
+  "description": "Kindling Image Forwarding",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dan Holloran",
+      "email": "dtholloran@gmail.com"
     }
+  ],
+  "require": {},
+  "repositories": {},
+  "autoload": {
+    "files": [
+      "helpers.php",
+      "filters.php"
+    ]
+  }
 }

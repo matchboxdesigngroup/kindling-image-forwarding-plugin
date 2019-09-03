@@ -4,6 +4,10 @@
  * @package Kindling_Image_Forwarding
  */
 
+if (!function_exists('add_action')) {
+    return;
+}
+
 add_action('kindling_ready', function () {
     add_filter('kindling_config_directories', function ($directories) {
         $directories[] = __DIR__ . '/config';
